@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60F473AF2C87B7DC0096AF77 /* educationappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F473AE2C87B7DC0096AF77 /* educationappApp.swift */; };
+		60F473B12C87B7DC0096AF77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F473B02C87B7DC0096AF77 /* ContentView.swift */; };
+		60F473B32C87B7DF0096AF77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F473B22C87B7DF0096AF77 /* Assets.xcassets */; };
+		60F473B62C87B7DF0096AF77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F473B52C87B7DF0096AF77 /* Preview Assets.xcassets */; };
+		60F473BD2C87BBFD0096AF77 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F473BC2C87BBFD0096AF77 /* LoginView.swift */; };
+		60F473BF2C87BC520096AF77 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F473BE2C87BC520096AF77 /* DashboardView.swift */; };
+		60F473C12C87BCAB0096AF77 /* DashboardAlunoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F473C02C87BCAB0096AF77 /* DashboardAlunoView.swift */; };
+		60F473C32C87BCE60096AF77 /* DashboardProfessorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F473C22C87BCE60096AF77 /* DashboardProfessorView.swift */; };
+		60F473C52C87BD120096AF77 /* MateriaisEstudoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F473C42C87BD120096AF77 /* MateriaisEstudoView.swift */; };
+		60F473C72C87BD3D0096AF77 /* GerenciamentoConteudoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F473C62C87BD3D0096AF77 /* GerenciamentoConteudoView.swift */; };
+		60F473C92C87BD6C0096AF77 /* AnunciosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F473C82C87BD6C0096AF77 /* AnunciosView.swift */; };
+		60F473CB2C87BD960096AF77 /* RevisaoDesempenhoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F473CA2C87BD960096AF77 /* RevisaoDesempenhoView.swift */; };
+		60F473CD2C87C59D0096AF77 /* SugestoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F473CC2C87C59D0096AF77 /* SugestoesView.swift */; };
+		60F473D02C87D9430096AF77 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 60F473CF2C87D9430096AF77 /* GoogleGenerativeAI */; };
+		60F473D22C8A5D410096AF77 /* DisciplinasProfessorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F473D12C8A5D410096AF77 /* DisciplinasProfessorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60F473AB2C87B7DC0096AF77 /* educationapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = educationapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F473AE2C87B7DC0096AF77 /* educationappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = educationappApp.swift; sourceTree = "<group>"; };
+		60F473B02C87B7DC0096AF77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		60F473B22C87B7DF0096AF77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60F473B52C87B7DF0096AF77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		60F473BC2C87BBFD0096AF77 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		60F473BE2C87BC520096AF77 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		60F473C02C87BCAB0096AF77 /* DashboardAlunoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardAlunoView.swift; sourceTree = "<group>"; };
+		60F473C22C87BCE60096AF77 /* DashboardProfessorView.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = DashboardProfessorView.swift; sourceTree = "<group>"; tabWidth = 2; };
+		60F473C42C87BD120096AF77 /* MateriaisEstudoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriaisEstudoView.swift; sourceTree = "<group>"; };
+		60F473C62C87BD3D0096AF77 /* GerenciamentoConteudoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GerenciamentoConteudoView.swift; sourceTree = "<group>"; };
+		60F473C82C87BD6C0096AF77 /* AnunciosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnunciosView.swift; sourceTree = "<group>"; };
+		60F473CA2C87BD960096AF77 /* RevisaoDesempenhoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevisaoDesempenhoView.swift; sourceTree = "<group>"; };
+		60F473CC2C87C59D0096AF77 /* SugestoesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugestoesView.swift; sourceTree = "<group>"; };
+		60F473D12C8A5D410096AF77 /* DisciplinasProfessorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisciplinasProfessorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60F473A82C87B7DC0096AF77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F473D02C87D9430096AF77 /* GoogleGenerativeAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60F473A22C87B7DC0096AF77 = {
+			isa = PBXGroup;
+			children = (
+				60F473AD2C87B7DC0096AF77 /* educationapp */,
+				60F473AC2C87B7DC0096AF77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60F473AC2C87B7DC0096AF77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60F473AB2C87B7DC0096AF77 /* educationapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60F473AD2C87B7DC0096AF77 /* educationapp */ = {
+			isa = PBXGroup;
+			children = (
+				60F473AE2C87B7DC0096AF77 /* educationappApp.swift */,
+				60F473B02C87B7DC0096AF77 /* ContentView.swift */,
+				60F473B22C87B7DF0096AF77 /* Assets.xcassets */,
+				60F473B42C87B7DF0096AF77 /* Preview Content */,
+				60F473BC2C87BBFD0096AF77 /* LoginView.swift */,
+				60F473BE2C87BC520096AF77 /* DashboardView.swift */,
+				60F473C02C87BCAB0096AF77 /* DashboardAlunoView.swift */,
+				60F473C22C87BCE60096AF77 /* DashboardProfessorView.swift */,
+				60F473C42C87BD120096AF77 /* MateriaisEstudoView.swift */,
+				60F473C62C87BD3D0096AF77 /* GerenciamentoConteudoView.swift */,
+				60F473C82C87BD6C0096AF77 /* AnunciosView.swift */,
+				60F473CA2C87BD960096AF77 /* RevisaoDesempenhoView.swift */,
+				60F473CC2C87C59D0096AF77 /* SugestoesView.swift */,
+				60F473D12C8A5D410096AF77 /* DisciplinasProfessorView.swift */,
+			);
+			path = educationapp;
+			sourceTree = "<group>";
+		};
+		60F473B42C87B7DF0096AF77 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				60F473B52C87B7DF0096AF77 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60F473AA2C87B7DC0096AF77 /* educationapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60F473B92C87B7DF0096AF77 /* Build configuration list for PBXNativeTarget "educationapp" */;
+			buildPhases = (
+				60F473A72C87B7DC0096AF77 /* Sources */,
+				60F473A82C87B7DC0096AF77 /* Frameworks */,
+				60F473A92C87B7DC0096AF77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = educationapp;
+			packageProductDependencies = (
+				60F473CF2C87D9430096AF77 /* GoogleGenerativeAI */,
+			);
+			productName = educationapp;
+			productReference = 60F473AB2C87B7DC0096AF77 /* educationapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60F473A32C87B7DC0096AF77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					60F473AA2C87B7DC0096AF77 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 60F473A62C87B7DC0096AF77 /* Build configuration list for PBXProject "educationapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60F473A22C87B7DC0096AF77;
+			packageReferences = (
+				60F473CE2C87D9430096AF77 /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
+			productRefGroup = 60F473AC2C87B7DC0096AF77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60F473AA2C87B7DC0096AF77 /* educationapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60F473A92C87B7DC0096AF77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F473B62C87B7DF0096AF77 /* Preview Assets.xcassets in Resources */,
+				60F473B32C87B7DF0096AF77 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60F473A72C87B7DC0096AF77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F473BD2C87BBFD0096AF77 /* LoginView.swift in Sources */,
+				60F473C52C87BD120096AF77 /* MateriaisEstudoView.swift in Sources */,
+				60F473C32C87BCE60096AF77 /* DashboardProfessorView.swift in Sources */,
+				60F473BF2C87BC520096AF77 /* DashboardView.swift in Sources */,
+				60F473C12C87BCAB0096AF77 /* DashboardAlunoView.swift in Sources */,
+				60F473B12C87B7DC0096AF77 /* ContentView.swift in Sources */,
+				60F473CB2C87BD960096AF77 /* RevisaoDesempenhoView.swift in Sources */,
+				60F473AF2C87B7DC0096AF77 /* educationappApp.swift in Sources */,
+				60F473C72C87BD3D0096AF77 /* GerenciamentoConteudoView.swift in Sources */,
+				60F473C92C87BD6C0096AF77 /* AnunciosView.swift in Sources */,
+				60F473D22C8A5D410096AF77 /* DisciplinasProfessorView.swift in Sources */,
+				60F473CD2C87C59D0096AF77 /* SugestoesView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		60F473B72C87B7DF0096AF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60F473B82C87B7DF0096AF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60F473BA2C87B7DF0096AF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"educationapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amanda.educationapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60F473BB2C87B7DF0096AF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"educationapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = amanda.educationapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60F473A62C87B7DC0096AF77 /* Build configuration list for PBXProject "educationapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60F473B72C87B7DF0096AF77 /* Debug */,
+				60F473B82C87B7DF0096AF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60F473B92C87B7DF0096AF77 /* Build configuration list for PBXNativeTarget "educationapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60F473BA2C87B7DF0096AF77 /* Debug */,
+				60F473BB2C87B7DF0096AF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		60F473CE2C87D9430096AF77 /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		60F473CF2C87D9430096AF77 /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60F473CE2C87D9430096AF77 /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 60F473A32C87B7DC0096AF77 /* Project object */;
+}
